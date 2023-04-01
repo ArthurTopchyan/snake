@@ -1,0 +1,2 @@
+C:\Users\Arthur\source\repos\google\Debug\google.exe
+C:\Users\Arthur\source\repos\google\Debug\google.pdb
