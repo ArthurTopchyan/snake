@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/.vs/snake1/v16
+*.user
+/x64

@@ -1,4 +1,0 @@
-﻿  google.cpp
-C:\Users\Arthur\source\repos\google\google.cpp(1098,52): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Arthur\source\repos\google\google.cpp(1107,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  google.vcxproj -> C:\Users\Arthur\source\repos\google\Debug\google.exe

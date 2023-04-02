@@ -21,9 +21,8 @@ void menu(RenderWindow& window)
     sf::Font font;
     play.loadFromFile("images/play.png");
     about.loadFromFile("images/about.png");
-    font.loadFromFile("C:\\Windows\\Fonts\\arial.ttf");
+    font.loadFromFile("C:\\Windows\\Fonts\\CHILLER.ttf");
     background.loadFromFile("images/terret.png");
-
 
     Sprite playB(play), aboutB(about), backgroundS(background);
 
