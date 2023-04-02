@@ -24,6 +24,7 @@ void menu(RenderWindow& window)
     font.loadFromFile("C:\\Windows\\Fonts\\CHILLER.ttf");
     background.loadFromFile("images/terret.png");
 
+    int rows = 0;
     Sprite playB(play), aboutB(about), backgroundS(background);
 
     playB.setPosition(200, 40);
