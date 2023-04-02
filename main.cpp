@@ -1,4 +1,6 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿//I create a define to hide all warnings
+#define _CRT_SECURE_NO_WARNINGS
+//I include a new libruary to have access to SFML
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <ctime>
@@ -11,7 +13,8 @@
 #include<stdlib.h>
 #include <cstdlib>
 #include <time.h>
-using namespace sf;
+//I use namespace sf to don't write "sf::"
+ using namespace sf;
 
 bool game = false;
 bool ru = false;
@@ -19,14 +22,15 @@ void menu(RenderWindow& window)
 {
     Texture play, about, background;
     sf::Font font;
+    //I load new textures
     play.loadFromFile("images/play.png");
     about.loadFromFile("images/about.png");
     font.loadFromFile("C:\\Windows\\Fonts\\CHILLER.ttf");
     background.loadFromFile("images/terret.png");
 
-    int rows = 0;
+    //I create a sprites of textures
     Sprite playB(play), aboutB(about), backgroundS(background);
-
+    //I give position to sprites 
     playB.setPosition(200, 40);
     aboutB.setPosition(200, 100);
     backgroundS.setPosition(0, 0);
